@@ -1,0 +1,20 @@
+
+data/
+
+# May system files
+.DS_Store
+
+# The R temporary files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Temporary files and logs
+*.log
+*.tmp
+*~
+
+# Secrets: never commit passwords or tokens
+.env
+*.pem
+*token*
